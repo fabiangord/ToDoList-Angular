@@ -1,0 +1,10 @@
+<div class="card text-center">
+    <div class="card-body">
+        <form>
+            <h5>App Work´s</h5>
+            <input type="text" placeholder="Add work..." class="form-control my-1" name="work" [(ngModel)]="work">
+            <input type="date" placeholder="Add delivery date..." class="form-control my-1" name="date" [(ngModel)]="date">
+            <button class="btn btn-primary" (click)="add()">Add</button>
+        </form>
+    </div>
+</div>

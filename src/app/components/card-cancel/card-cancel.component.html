@@ -1,0 +1,10 @@
+<div class="card text-bg-danger text-center" *ngIf="WorkService.showTable3">
+    <div class="card-header">Work´s Canceled</div>
+    <div class="card-body" *ngFor="let work of WorkService.worksCanceled; let i = index">
+        <div class="work">
+            <span>{{i+1}}:</span>
+            <span>{{work.work}}</span> 
+            <span class="date"><b>{{work.date}}</b></span>
+        </div>
+    </div>
+  </div>

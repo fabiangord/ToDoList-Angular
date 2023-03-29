@@ -1,0 +1,10 @@
+<div class="card text-bg-success text-center" *ngIf="WorkService.showTable2">
+    <div class="card-header">Work´s Complete</div>
+    <div class="card-body" *ngFor="let work of WorkService.worksComplete; let i = index">
+    <div class="work">
+        <span>{{i+1}}:</span>
+        <span>{{work.work}}</span> 
+        <span class="date"><b>{{work.date}}</b></span>
+    </div>
+    </div>
+  </div>

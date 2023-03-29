@@ -1,0 +1,15 @@
+<div class="card text-bg-warning text-center" *ngIf="WorkService.showTable1 || WorkService.worksNoComplete.length > 0">
+    <div class="card-header">Work´s No Complete</div>
+    <div class="card-body" *ngFor="let work of WorkService.worksNoComplete; let i = index">
+        <div class="work">
+            <span>{{i+1}}:</span>
+            <span>{{work.work}}</span> 
+            <span class="date"><b>{{work.date}}</b></span>
+            <div class="buttons">
+                <a (click)=" WorkService.check(i)"><i class="fa-sharp fa-solid fa-check"></i></a>
+                <a (click)=" WorkService.cancel(i)"><i class="fa-solid fa-x"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+  
