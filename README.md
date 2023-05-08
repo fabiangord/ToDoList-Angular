@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-# ToDoList
 
+# To Do List Angular
 
-## Development server
+App de registro de tareas simples, en proceso de evolucion.
+Desarrollada en Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Servidor de Desarrollo
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
+Clona el repositorio y ejecuta el comando 'ng serve -o' para ejecutar aplicacion, recuerda tener instalado Angular
