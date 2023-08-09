@@ -10,4 +10,4 @@ Desarrollada en Angular
 
 # Servidor de Desarrollo
 
-Clona el repositorio y ejecuta el comando 'ng serve -o' para ejecutar aplicacion, recuerda tener instalado Angular
+Clona el repositorio y ejecuta el comando 'ng serve -o' para ejecutar aplicacion, recuerda tener instalado Angular.
